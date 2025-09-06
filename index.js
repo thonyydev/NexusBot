@@ -7,7 +7,8 @@ const { carregarPalavras } = require("./utils/palavras");
 
 dotenv.config();
 
-// Connect to MongoDB
+
+
 mongoose
   .connect(process.env.MONGO_URI)
   .then(() => console.log("Conectado ao MongoDB!"))
