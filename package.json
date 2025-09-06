@@ -1,0 +1,21 @@
+{
+  "name": "nexusbot",
+  "version": "0.0.1",
+  "description": "O centro de comando do seu servidor. Moderação, economia e comandos úteis, tudo em um só lugar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "commands": "node deploy-commands.js"
+  },
+  "author": "thonyy07",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.1",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.0",
+    "node-fetch": "^2.7.0",
+    "path": "^0.12.7"
+  }
+}
