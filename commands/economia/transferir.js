@@ -14,7 +14,7 @@ module.exports = {
     .addIntegerOption((option) =>
       option
         .setName("quantia")
-        .description("Quantia para transferir")
+        .setDescription("Quantia para transferir")
         .setRequired(true)
         .setMinValue(100)
     )
